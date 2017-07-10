@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Simon Game</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <audio id="sound1" src="https://s3.amazonaws.com/freecodecamp/simonSound1.mp3"></audio>
+    <audio id="sound2" src="https://s3.amazonaws.com/freecodecamp/simonSound2.mp3"></audio>
+    <audio id="sound3" src="https://s3.amazonaws.com/freecodecamp/simonSound3.mp3"></audio>
+    <audio id="sound4" src="https://s3.amazonaws.com/freecodecamp/simonSound4.mp3"></audio>
+</head>
+<body>
+<div id="container">
+    <div id="boxbox">
+        <div id="topdiv">Simon Game</div>
+        <div id="playbox">
+            <button class="playbutton" id="button1"></button>
+            <button class="playbutton" id="button2"></button>
+            <button class="playbutton" id="button3"></button>
+            <button class="playbutton" id="button4"></button>
+            <div id="label"></div>
+        </div>
+        <div id="buttons">
+            <button class="button" id="startbutton">Start</button>
+            <div class="checkLight" id="checkLightStart"></div>
+            <button class="button" id="strictbutton">Strict Mode</button>
+            <div class="checkLight" id="checkLightStrict"></div>
+            <button class="button" id="restart">Restart</button>
+        </div>
+    </div>
+</div>
+<script src="js.js"></script>
+</body>
+<footer class="container">Github link: <a href="https://github.com/wjaron/simongame" target="_blank">click</a>.
+
+    Copyright: WJ.
+</footer>
+</html>
